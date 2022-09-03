@@ -1,8 +1,9 @@
-import lombok.Data;
-
+import lombok.*;
 @Data
+@Builder
+@ToString(includeFieldNames = false)
 public class alien {
-	String  name;
-	int age;
-	String color;
+	private String name;
+	private int age;
+	private String color;
 }

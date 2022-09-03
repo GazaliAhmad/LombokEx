@@ -1,13 +1,11 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @AllArgsConstructor
 @Getter
-@ToString
+@ToString(includeFieldNames = false)
+@Builder
 public class player {
-	private int age;
 	@Setter private String name;
+	private int age;
 	@Setter private String skillLevel;
 }
