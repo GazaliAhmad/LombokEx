@@ -70,5 +70,7 @@ public class Main {
 		val any1 = 1;
 		
 		out.println("\n" + any1 + " + " + any2 + " = " + (any1 + any2));
+		
+		out.println("\nDevelop by: " + p1.getName());
 	}
 }
