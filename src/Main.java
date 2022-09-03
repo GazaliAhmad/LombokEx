@@ -28,12 +28,18 @@ public class Main {
 				.color("purple")
 				.build();
 		
-		// This is dev1 branch
+		alien a5 = alien
+				.builder()
+				.name("Sally")
+				.age(28)
+				.color("maroon")
+				.build();
 		
 		out.println("\n" + a1);
 		out.println("\n" + a2);
 		out.println("\n" + a3);
 		out.println("\n" + a4);
+		out.println("\n" + a5);
 		
 		a3.setName("Jill");
 		out.println("\n" + a3);
